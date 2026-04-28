@@ -17,20 +17,29 @@ These repositories use synthetic, low-stakes examples, but the workflow patterns
 
 ## Selected examples
 
-- **PDF/OCR catalogue review workflow**  
-  Document extraction workflow with structured outputs, review packets, and validation checks.
+- **PDF/OCR Catalog Review Workflow**  
+  Converts varied catalog-style PDFs into structured draft records, CSV/JSON/SQLite outputs, validation warnings, source evidence, and human-review packets.
 
-- **Supplier PDF to Excel/CSV review packet**  
-  Converts messy supplier-style documents into structured spreadsheets with review cues.
+- **Supplier PDF to Excel/CSV Review Packet**  
+  Recovers structured rows from messy supplier-style PDFs, applies confidence scoring and validation flags, and produces an Excel/CSV handoff for review.
 
-- **Web listings pipeline**  
-  Scraping and normalization workflow for heterogeneous listings, with structured exports.
+- **Web Listings Extraction & Normalization Pipeline**  
+  Collects static, paginated, JavaScript-rendered, and cookie-gated listings into one normalized CSV/JSON catalog with an inspectable HTML QA report.
 
-- **AI-assisted email intake review**  
-  LangGraph-style workflow for classifying and structuring inbound messages with human-review controls.
+- **PDF/DOCX Packet Structuring Workflow**  
+  Turns mixed document packets into source-cited run sheets with validation warnings, unresolved questions, and reviewer-facing outputs.
 
-- **Workbook formula sync and audit workflow**  
-  Spreadsheet automation example with validation, rejected-row handling, and audit-friendly outputs.
+- **AI-Assisted Email Intake Review Workflow**  
+  Extracts fields from informal emails with LangGraph/OpenAI, matches them against workbook rules, and writes review packets without auto-sending.
+
+- **Excel Formula Sync & Audit Workflow**  
+  Syncs reviewed formulas into an Excel-compatible workbook while rejecting unsafe or invalid rows and preserving an audit trail.
+
+- **AI-Assisted Publishing Review Workflow**  
+  Turns incomplete event/workshop requests into draft public copy, organizer digests, explicit review flags, and hold/publish decisions.
+
+- **CSV-to-PDF Automated Reporting Pipeline**  
+  Rebuilds a repeatable PDF packet from structured CSV data with validation, deterministic ordering, and stable layout.
 
 ## How to read these repositories
 
