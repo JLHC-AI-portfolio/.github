@@ -14,6 +14,7 @@ These repositories use synthetic, low-stakes examples, but the workflow patterns
 | AI-assisted workflows | Use LLMs for bounded extraction or classification with validation and human review | Add AI support without treating model output as automatically correct |
 | Reporting automation | Convert structured data into repeatable PDF, HTML, Excel, or review-ready deliverables | Replace manual reporting with reproducible outputs |
 | Research and geospatial pipelines | Process, document, and publish analytical or scientific datasets | Build reproducible research-grade data workflows |
+| DOCX standardization | Standardize inconsistent Word documents into validated, editable drafts with review packets and QA logs | Normalize SOPs, playbooks, internal guides, training material, or operational documentation |
 
 ## Selected examples
 
@@ -28,6 +29,9 @@ These repositories use synthetic, low-stakes examples, but the workflow patterns
 
 - **PDF/DOCX Packet Structuring Workflow**  
   Turns mixed document packets into source-cited run sheets with validation warnings, unresolved questions, and reviewer-facing outputs.
+
+- **AI-Assisted DOCX Playbook Standardization Workflow**  
+Standardizes inconsistent Word playbooks into validated JSON, editable DOCX drafts, review packets, logs, replay evals, and human-review cues.
 
 - **AI-Assisted Email Intake Review Workflow**  
   Extracts fields from informal emails with LangGraph/OpenAI, matches them against workbook rules, and writes review packets without auto-sending.
@@ -55,7 +59,7 @@ The goal is not to showcase large production systems with private client data. T
 
 ## Core skills represented
 
-Python, R, ETL, data extraction, PDF/OCR workflows, web scraping, Excel/CSV automation, automated reporting, AI-assisted workflows, LangChain/LangGraph-style orchestration, validation, QA, reproducibility, and maintainable data pipelines.
+Python, R, ETL, data extraction, PDF/OCR workflows, DOCX automation, web scraping, Excel/CSV automation, JSON Schema validation, automated reporting, AI-assisted workflows, LangChain/LangGraph-style orchestration, validation, QA, reproducibility, and maintainable data pipelines.
 
 ## Professional positioning
 
