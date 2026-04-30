@@ -1,6 +1,6 @@
 # JLHC AI Portfolio
 
-Public reference workflows showing how I approach data automation, document extraction, scraping, reporting, validation, and AI-assisted review.
+Public reference workflows showing how I approach data automation, document extraction, DOCX/PDF standardization, scraping, reporting, validation, and AI-assisted review.
 
 These repositories use synthetic, low-stakes examples, but the workflow patterns are real: messy inputs, structured outputs, validation checks, human-review cues, and maintainable handoff.
 
